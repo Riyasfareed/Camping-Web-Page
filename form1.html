@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Ceylon-Guide-Form</title>
+    <!--ICONSOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!--Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="social2.css">
+
+    <style>
+        p.border {
+            color:hsl(108, 88%, 22%) ;
+            
+            border-style: solid;
+            border-width: 2px;
+            margin-left: 20%;
+            margin-right: 20%;
+            border-radius: 2rem;
+            margin-bottom: 10%;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="log" style="color:hsl(108, 88%, 22%);"><i class="uil uil-bill"></i>Ceylon-Guide</h2>
+            
+            
+
+        </div>
+    </nav>
+    <br><br><br><br>
+
+    <h3 style="color:hsl(108, 88%, 22%); padding-left: 10%; font-size: 30px;"><i class="uil uil-transaction"></i>Payment Form</h3>
+    <br><br>
+      <form>
+    <p align="center" class="border">
+    
+        <br>Full name : 
+        <input type="text" name="full name" style="background-color:hsl(122, 100%, 94%); border-radius: 2rem; height:25px" size="40" ><br>
+       <br> E-mail Address :
+        <input type="email" name="full name" style="background-color:hsl(122, 100%, 94%); border-radius: 2rem; height:25px" size="40" ><br>
+       <br> Account Usrname : 
+        <input type="text" name="full name" style="background-color:hsl(122, 100%, 94%); border-radius: 2rem; height:25px" size="40" required ><br>
+        <br>Account Password :
+        <input type="password" name="full name" style="background-color:hsl(122, 100%, 94%); border-radius: 2rem; height:25px" size="40" maxlength="8" required ><br>
+        <br><i class="uil uil-credit-card-search"></i>Select payment method : <br>
+        <select name="dropdown" style="width:40%; height: 2rem; color: hsl(108, 88%, 22%); border-radius: 20%;">
+            <option value="method1" >Paypal</option>
+            <option value="method1" >VISA/MASTER Debit-Cards</option>
+            <option value="method1" >VISA/MAster Credit-Cards</option>
+            <option value="method1" >Gift-Vouchers</option>
+        </select><br>
+        <br>Package name :
+        <input type="text" name="full name" style="background-color:hsl(122, 100%, 94%); border-radius: 2rem; height:25px;" size="40" reqiured><br>
+        <br>Enter Amount :
+        <input type="text" name="full name" style="background-color:hsl(122, 100%, 94%); border-radius: 2rem; height:25px" size="40" value="Rs." required  >
+        <br><br>Need an online recipt<br>
+        <input type="radio" name="recipt" checked>Yes &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="recipt" >No <br> <br>
+        Complete Payment : <br><br>
+        <input type="submit" name="submit" value="Complete Forrm" style="background-color:hsla(103, 100%, 79%, 0.973); border-radius: 2rem; height:25px;" size="40" ><br><br>
+        
+            
+                <label class="btn btn-primary"  onclick="display_prompt()">Pay</label>
+        &nbsp;&nbsp;&nbsp;
+        <a href="./packandloc.html">
+            
+            <label class="btn btn-primary">Back</label>
+    </a><br><br>
+             
+    </p>
+    
+    
+        </form>
+
+        
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#shop">Shop</a>
+            <a href="#packages">Packages</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#">My account</a>
+            <a href="#">My order</a>
+            <a href="#">My wishlist</a>
+            <a href="#">Ask questions</a>
+            <a href="#">Terms of use</a>
+            <a href="#">Privacy policy</a>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#"> <i class="uil uil-phone"></i> +94-3-456-7890 </a>
+            <a href="#"><i class="uil uil-phone"></i> +94-5-222-3333 </a>
+            <a href="#"><i class="uil uil-envelope"></i>  travelceylon@gmail.com </a>
+            <a href="#"><i class="uil uil-map"></i>  Colombo, Sri Lanka 001100 </a>
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"> <i class="uil uil-facebook"></i> Facebook </a>
+            <a href="#"><i class="uil uil-twitter"></i>  Twitter </a>
+            <a href="#"><i class="uil uil-instagram-alt"></i>  Instagram </a>
+            <a href="#"> <i class="uil uil-linkedin"></i> Linkedin </a>
+            <a href="#"> <i class="uil uil-github"></i> Github </a>
+        </div>
+
+    </div>
+
+    <div class="credit">Created by <span>CSC113&alpha; Group 4</span> | all rights reserved!</div>
+
+</section>
+
+
+
+    <script>
+        function display_prompt(){
+            window.alert("Payment Successful!");
+            
+        }
+    </script>
+
+
+
+    </body>
+    </html>
